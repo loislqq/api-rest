@@ -21,6 +21,7 @@ public class DepartmentResource {
         this.service = service;
     }
 
+    //getmapping
     @GetMapping(value = "/departments")
     public List<Department> getAll(){
         return this.service.getAll();
